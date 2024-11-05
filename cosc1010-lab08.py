@@ -129,9 +129,9 @@ while True:
     else: # calls the quadratic formula function
         roots = Quadratic_formula(a, b, c)
         if roots is None:
-            print("No solution")
+            print("No real solution") # if no real roots
         else:
-            print("Solutions: ", roots)
+            print("Solutions:", roots)
 
 
 
